@@ -4,7 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 
-class Lang
+class Language
 {
     /**
      * Handle an incoming request.

@@ -37,25 +37,6 @@ return [
      'ex_csv' => 'تصدير ملف CSV',
      'all_records' => 'كل السجلات',
 
-     "sProcessing" => "تحميل",
-     "sLengthMenu" => " اظهار  _MENU_  تسجيل",
-    "sZeroRecords" => "صفر سجلات",
-     "sEmptyTable" => " جدول خالي",
-           "sInfo" => "اظهار _START_ الي  _END_ من  _TOTAL_  سجلات",
-      "sInfoEmpty" => "معلومات خالية",
-   "sInfoFiltered" => "معلومات _MAX_ سجلات منتقاه",
-    "sInfoPostFix" => "",
-         "sSearch" => "بحث",
-            "sUrl" => "",
-  "sInfoThousands" => "",
- "sLoadingRecords" => " تحميل السجلات",
-          "sFirst" => "االاول",
-           "sLast" => "الاخير",
-           "sNext" => "التالي",
-       "sPrevious" => "السابق",
-       "sSortAscending" => "ترتيب بحسب الاقل",
-       "sSortDescending" =>  " ترتيب بحسب الاكبر",
-
 
     'admin_id'=>'رقم المشرف',
     'admin_name'=>'اسم المشرف',
@@ -84,24 +65,41 @@ return [
     'record_deleted'=>' تم حذف البيانات بنجاح',
     'delete_this'=>'هل انت موافق علي حذف :name ؟',
 
-//    // Users
-//    'create_user'=>'اضافة عضو',
-//    'users'=>'حسابات الاعضاء',
-//    'user'=>' عضو',
-//    'company'=>' شركة',
-//    'vendor'=>' متجر',
-//    'level'=>' مستوي العضوية',
-//
-//    'user_id'=>'رقم العضو',
-//    'user_name'=>' اسم العضو',
-//    'user_email'=>'الايميل ',
 
     // Settings
-    'settings' =>'الاعدادات',
+    'settings' =>'الاعدادات', 
+    'sections' =>' الاقسام',
     'addsection' =>'اضافة قسم',
+    'products' =>'المنتجات',
     'addproduct' =>'اضافة منتج',
 
-
+     // Invoices
+     'invoices' =>'قائمة الفواتير ',
+     'invoices_id' =>'الرقم التعريفي ',
+     'invoices_number' =>'رقم الفاتورة',
+     'invoices_date' =>'تاريخ الفاتورة',
+     'invoices_due_date' =>'تاريخ الاستحقاق',
+     'product' =>'المنتج',
+     'section' =>'القسم',
+     'discount' =>'الخصم',
+     'tax_percentage' =>'نسبة الضريبة',
+     'tax' =>'قيمة الضريبة',
+     'total' =>'الاجمالي',
+     'status' =>'الحالة',
+     'notes' =>'ملاحظات',
+     'options' =>'الخيارات',
+     'description' =>'الوصف',
+     
+     // Pages names
+     'home' =>'لوحة التحكم',
+     'login' =>'تسجيل الدخول',
+     'reports' =>'التقارير',
+     'users' =>'المستخدمين',
+     
+     // Sections
+     'sections' =>'القسم',
+     'sections_id' =>'رقم القسم',
+     'sections_name' =>'اسم القسم',
 
 
 

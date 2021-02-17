@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,18 +24,16 @@ Route::get('lang/{lang}', function ($lang) {
 
 
 
+Auth::routes();
 
-Route::group(['prefix'=> '/','middleware' => 'auth:web'],function(){
+Route::group(['prefix'=> '/','middleware' => 'auth:web'],function() {
 
-    Route::get('/', function () {
-        return view('index');
-    });
+    Route::get('/', 'FrontController@index');
+
 });
 
 
 
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/{page}', 'AdminController@index');
+
